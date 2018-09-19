@@ -15,11 +15,11 @@
 
 #### Build docker image
 
-`docker build -t dockerfile:${version}`
+`docker build -t dockertalk:${version}`
 
 #### Run image
 
-`docker run docker run -p 8080:8080 dockertalk:${version}`
+`docker run -p 8080:8080 dockertalk:${version}`
 
 #### Go to
 `http://localhost:8080/hello`, then you should see "Hello Talks"
